@@ -1,15 +1,18 @@
 import React from 'react';
-
+import Ishan from '../ishan.jpg';
+import Srihari from '../srihari.jpg';
+import Abhi from '../abhi.jpg';
 const ProfileCard = () => {
   return (
     <div className="bg-black text-white min-h-screen">
-    <div className="flex justify-center space-x-4 p-6">
+    <div className="flex justify-center space-x-5 p-6">
+      
       {/* First Profile Card */}
       <div className="w-96 px-6 py-6 text-center bg-gray-800 rounded-lg">
         <div className="space-y-4 xl:space-y-6">
           <img
             className="mx-auto rounded-full h-36 w-36"
-            src="https://media.licdn.com/dms/image/v2/D5603AQFPuQ9Lm4X1sg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1676211376067?e=1733961600&v=beta&t=I4MVlDC9dj_Itsi__8WOqhaPxStSDRhxdrwX-zWLh30"
+            src={Ishan}
             alt="author avatar"
           />
           <div className="space-y-2">
@@ -68,7 +71,7 @@ const ProfileCard = () => {
         <div className="space-y-4 xl:space-y-6">
           <img
             className="mx-auto rounded-full h-36 w-36"
-            src="https://media.licdn.com/dms/image/v2/D5603AQEHSx7wZVjqpg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1672769364120?e=1733961600&v=beta&t=zBcfwamTAg45X0DTtMZRQ9PjlztwJMcT9iySyLY5sx8"
+            src={Abhi}
             alt="author avatar"
           />
           <div className="space-y-2">
@@ -127,7 +130,7 @@ const ProfileCard = () => {
         <div className="space-y-4 xl:space-y-6">
           <img
             className="mx-auto rounded-full h-36 w-36"
-            src="https://media.licdn.com/dms/image/v2/D5603AQFmddcLAzpRVg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1678962674815?e=1733961600&v=beta&t=ZitCDsFBbykeGzkrPIjc52I53ClQ2W_CHZlX7L4pa-E"
+            src={Srihari}
             alt="author avatar"
           />
           <div className="space-y-2">

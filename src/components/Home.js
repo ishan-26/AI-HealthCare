@@ -20,7 +20,7 @@ const Home = () => {
     </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 pb-16 w-full max-w-7xl">
 
-        {/* Card 1: AI Medical Diagnosis */}
+        {/* Card 1: Medical Diagnosis */}
         <div className="relative flex flex-col my-6 bg-gray-900 shadow-md border border-gray-700 rounded-2xl h-80 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
           <div className="relative p-2.5 h-1/2 overflow-hidden rounded-2xl bg-clip-border">
             <img
@@ -32,7 +32,7 @@ const Home = () => {
           <div className="flex flex-col justify-between p-4 h-1/2">
             <div className="mb-2">
               <p className="text-gray-100 text-xl font-semibold">
-                AI Medical Diagnosis
+               Medical Diagnosis
               </p>
 
             </div>
@@ -62,7 +62,7 @@ const Home = () => {
           <div className="flex flex-col justify-between p-4 h-1/2">
             <div className="mb-2">
               <p className="text-gray-100 text-xl font-semibold">
-                AI Diet Planner
+               Diet Planner
               </p>
 
             </div>
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="flex flex-col justify-between p-4 h-1/2">
             <div className="mb-2">
               <p className="text-gray-100 text-xl font-semibold">
-                AI Calorie Count
+              Calorie Count
               </p>
 
             </div>

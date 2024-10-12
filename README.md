@@ -1,13 +1,13 @@
 # 🌟 AI Healthcare Solutions 🌟
 
 ## 📖 Overview
-**Mednex** is a web application that leverages artificial intelligence to provide innovative healthcare solutions, including AI-powered diagnosis, diet planning, and calorie tracking. The application is designed to enhance the user experience in managing their health effectively.
+**Mednex** is a web application that leverages artificial intelligence to provide innovative healthcare solutions, including AI-powered diagnosis, diet planning and calorie tracking. The application is designed to enhance the user experience in managing their health effectively.
 
 ## 🚀 Features
 - **🧠 AI-Powered Diagnosis**: Receive intelligent insights into your health.
 - **🍽️ Diet Planning**: Tailored meal plans based on user preferences and health goals.
 - **📊 Calorie Tracking**: Click a photo of a dish to instantly identify its total calories and nutritional values
-- **📱 Responsive Design**: Optimized for desktops, tablets, and mobile phones.
+- **📱 Responsive Design**: Optimized for desktops, tablets and mobile phones.
 - **✨ Interactive UI**: Engaging user interface with animations and effects.
 
 ## ⚙️ Technologies Used

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const NavbarComponent = () => {
   return (
     <AppBar position="static" className="bg-gray-900 shadow-lg">
-      <Toolbar className="flex justify-between items-center">
+      <Toolbar className="flex flex-wrap justify-between items-center">
         <Typography variant="h6" component="div" className="text-white font-bold">
           AI Healthcare
         </Typography>

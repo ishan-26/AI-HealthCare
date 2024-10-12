@@ -85,7 +85,7 @@ const ContactForm = () => {
         </button>
 
         <div className="mt-4 text-sm text-gray-600">
-          If you prefer not to use web forms, you can reveal our email address on <a href="mailto:ishandhotre26@gmail.com" className="underline" target="_blank" rel="noopener noreferrer">ishandhotre26@gmail.com</a>.
+          If you prefer not to use web forms, you can reveal your email address on <a href="mailto:ishandhotre26@gmail.com" className="underline" target="_blank" rel="noopener noreferrer">ishandhotre26@gmail.com</a>.
         </div>
       </form>
     </div>

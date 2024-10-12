@@ -27,6 +27,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ```
 npm install @emailjs/browser
 npm install @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled
+npm install react-router-dom          
 ``` 
 
 ### Clone the Repository

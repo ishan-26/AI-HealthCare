@@ -16,7 +16,7 @@ AI Healthcare Solutions is a web application that leverages artificial intellige
   - Tailwind CSS
   - EmailJS for sending emails
 - **Backend**: 
-  - (If applicable, specify backend technologies)
+  - Google's Gemini API
 
 ## 📦 Installation
 

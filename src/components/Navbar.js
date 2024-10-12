@@ -6,11 +6,13 @@ const NavbarComponent = () => {
   return (
     <AppBar position="static" className="bg-gray-900 shadow-lg">
       <Toolbar className="flex flex-wrap justify-between items-center">
-        <Typography variant="h6" component="div" className="text-white font-bold">
+       
+        <Typography variant="h6" component={Link} to="/" className="text-white font-bold no-underline">
           Mednex
         </Typography>
+
         <div className="space-x-4">
-        <Button
+          <Button
             color="inherit"
             component={Link}
             to="/"
@@ -27,6 +29,7 @@ const NavbarComponent = () => {
           >
             Our Team
           </Button>
+
           <Button
             color="inherit"
             component={Link}
@@ -35,7 +38,6 @@ const NavbarComponent = () => {
           >
             Contact Us
           </Button>
-
         </div>
       </Toolbar>
     </AppBar>

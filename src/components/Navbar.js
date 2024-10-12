@@ -6,8 +6,8 @@ const NavbarComponent = () => {
   return (
     <AppBar position="static" className="bg-gray-900 shadow-lg">
       <Toolbar className="flex flex-wrap justify-between items-center">
-        <Typography variant="h6" component="div" className="text-white font-bold">
-          AI Healthcare
+        <Typography variant="h6" component="div" className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 font-bold">
+          Mednex
         </Typography>
         <div className="space-x-4">
         <Button

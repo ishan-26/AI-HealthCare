@@ -6,7 +6,7 @@ AI Healthcare Solutions is a web application that leverages artificial intellige
 ## 🚀 Features
 - **🧠 AI-Powered Diagnosis**: Receive intelligent insights into your health.
 - **🍽️ Diet Planning**: Tailored meal plans based on user preferences and health goals.
-- **📊 Calorie Tracking**: Monitor daily calorie intake and nutritional values.
+- **📊 Calorie Tracking**: Click a photo of a dish to instantly identify its total calories and nutritional values
 - **📱 Responsive Design**: Optimized for desktops, tablets, and mobile phones.
 - **✨ Interactive UI**: Engaging user interface with animations and effects.
 
@@ -14,17 +14,23 @@ AI Healthcare Solutions is a web application that leverages artificial intellige
 - **Frontend**: 
   - React
   - Tailwind CSS
-  - EmailJS for sending emails
+  - EmailJS
+
 - **Backend**: 
   - Google's Gemini API
-  - 
 
 ## 📦 Installation
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
+```
+npm install @emailjs/browser
+npm install @mui/icons-material
+``` 
+
 ### Clone the Repository
-```bash
+```
 git clone https://github.com/yourusername/ai-healthcare-solutions.git
 cd ai-healthcare-solutions
+```

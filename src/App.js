@@ -3,9 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarComponent from './components/Navbar';
 import Home from './components/Home';
 import ProfileCard from './components/ProfileCard';
-import AIDiagnosis from './components/AIDiagnosis';
-import AIDietPlanner from './components/AIDietPlanner';
-import AICalorieCount from './components/AICalorieCount';
 import ContactForm from './components/Contact';
 import { init } from '@emailjs/browser';
 

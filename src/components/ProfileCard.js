@@ -3,7 +3,7 @@ import React from 'react';
 const ProfileCard = () => {
   return (
     <div className="bg-black text-white min-h-screen">
-    <div className="flex justify-center space-x-4 p-6">
+    <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 p-6">
       {/* First Profile Card */}
       <div className="w-96 px-6 py-6 text-center bg-gray-800 rounded-lg">
         <div className="space-y-4 xl:space-y-6">

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfileCard from './ProfileCard';
 import ContactForm from './Contact';
+import { Button } from '@mui/material';
 const Home = () => {
   return (
     <div className="bg-black min-h-screen text-white flex flex-col items-center justify-center">
@@ -38,9 +39,14 @@ const Home = () => {
             <p className="text-gray-300 leading-normal font-light mb-4">
               Get accurate medical diagnoses using AI technology.
             </p>
-            <Link to="/ai-diagnosis" className="rounded-md w-full bg-blue-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-blue-700 focus:shadow-none active:bg-blue-700 hover:bg-blue-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+            <a className="rounded-md w-full bg-blue-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:text-white shadow-lg focus:bg-blue-700 focus:shadow-none active:bg-blue-700 hover:bg-blue-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    href='https://ai-medical-analysis.streamlit.app/'
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+
               DIAGNOSE NOW
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -63,9 +69,12 @@ const Home = () => {
             <p className="text-gray-300 leading-normal font-light mb-4">
               Plan your diet effectively with our AI-powered tool.
             </p>
-            <Link to="/ai-diet-planner" className="rounded-md w-full bg-green-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-green-700 focus:shadow-none active:bg-green-700 hover:bg-green-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+            <a className="rounded-md w-full bg-green-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:text-white shadow-lg focus:bg-green-700 focus:shadow-none active:bg-green-700 hover:bg-green-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    href='https://ai-diet-planner-2.streamlit.app/'
+                    target="_blank"
+                    rel="noopener noreferrer">
               PLAN NOW
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -88,9 +97,14 @@ const Home = () => {
             <p className="text-gray-300 leading-normal font-light mb-4">
               Track your calories easily with our AI tool.
             </p>
-            <Link to="/ai-calorie-count" className="rounded-md w-full bg-red-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-red-700 focus:shadow-none active:bg-red-700 hover:bg-red-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+            <a
+  className="rounded-md w-full bg-red-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:text-white shadow-lg focus:bg-red-700 focus:shadow-none active:bg-red-700 hover:bg-red-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+  href="https://calories-count-ai.streamlit.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
               COUNT NOW
-            </Link>
+            </a>
           </div>
         </div>
       </div>

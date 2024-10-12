@@ -5,10 +5,10 @@ import Abhi from '../abhi.jpg';
 const ProfileCard = () => {
   return (
     <div className="bg-black text-white min-h-screen">
-    <div className="flex justify-center space-x-5 p-6">
+    <div className="flex flex-col md:flex-row justify-center ">
       
       {/* First Profile Card */}
-      <div className="w-96 px-6 py-6 text-center bg-gray-800 rounded-lg">
+      <div className="w-80 px-6 py-6 my-5 mx-auto md:m-5 text-center bg-gray-800 rounded-lg">
         <div className="space-y-4 xl:space-y-6">
           <img
             className="mx-auto rounded-full h-36 w-36"
@@ -67,7 +67,7 @@ const ProfileCard = () => {
       </div>
 
       {/* Second Profile Card */}
-      <div className="w-96 px-6 py-6 text-center bg-gray-800 rounded-lg">
+      <div className="w-80 px-6 py-6 my-5 mx-auto md:m-5 text-center bg-gray-800 rounded-lg">
         <div className="space-y-4 xl:space-y-6">
           <img
             className="mx-auto rounded-full h-36 w-36"
@@ -126,7 +126,7 @@ const ProfileCard = () => {
       </div>
 
       {/* Third Profile Card */}
-      <div className="w-96 px-6 py-6 text-center bg-gray-800 rounded-lg">
+      <div className="w-80 px-6 py-6 my-5 mx-auto md:m-5 text-center bg-gray-800 rounded-lg">
         <div className="space-y-4 xl:space-y-6">
           <img
             className="mx-auto rounded-full h-36 w-36"

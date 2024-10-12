@@ -14,7 +14,7 @@ const Home = () => {
       </h2>
       <h6 className="mb-12 text-lg md:text-xl max-w-2xl mx-auto">
   <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600">
-    Revolutionizing healthcare with AI-powered diagnosis, diet planning, and calorie tracking.
+    Revolutionizing healthcare with AI-powered diagnosis, diet planning and calorie tracking.
   </span>
 </h6>
     </div>

@@ -6,7 +6,7 @@
 ## 🚀 Features
 - **🧠 AI-Powered Diagnosis**: Receive intelligent insights into your health.
 - **🍽️ Diet Planning**: Tailored meal plans based on user preferences and health goals.
-- **📊 Calorie Tracking**: Click a photo of a dish to instantly identify its total calories and nutritional values
+- **📊 Calorie Tracking**: Click a photo of a dish to instantly identify its total calories and nutritional values.
 - **📱 Responsive Design**: Optimized for desktops, tablets and mobile phones.
 - **✨ Interactive UI**: Engaging user interface with animations and effects.
 

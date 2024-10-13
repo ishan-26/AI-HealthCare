@@ -17,7 +17,8 @@ const NavbarComponent = () => {
             component={Link}
             to="/"
             className="transition-all duration-300 rounded-full text-white border border-transparent hover:border-transparent hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 py-2 px-4"
-              Home
+            >   
+          Home
         </Button>
 
 

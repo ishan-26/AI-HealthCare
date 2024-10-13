@@ -16,7 +16,7 @@ const NavbarComponent = () => {
             color="inherit"
             component={Link}
             to="/"
-            className="transition-all duration-300 rounded-full text-white border border-blue-600 hover:border-purple-600 hover:text-white hover:bg-transparent py-2 px-6"
+            className="transition-all duration-300 rounded-full text-white bg-blue-600 border border-blue-600 hover:border-purple-600 hover:bg-transparent py-2 px-6"
           >
               Home
         </Button>

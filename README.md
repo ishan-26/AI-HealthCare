@@ -25,6 +25,7 @@
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ```
+pip install google-generativeai
 npm install @emailjs/browser
 npm install @mui/icons-material
 npm install @mui/material @emotion/react @emotion/styled

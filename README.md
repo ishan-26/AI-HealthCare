@@ -20,7 +20,7 @@
   - Google's Gemini API
 
 ## 🧑‍💻Try Now !
-[MedNex](https://ai-healthcare-eight.vercel.app/)
+- [MedNex](https://ai-healthcare-eight.vercel.app/)
 
 ## 📦 Installation
 

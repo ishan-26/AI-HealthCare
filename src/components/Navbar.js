@@ -12,20 +12,21 @@ const NavbarComponent = () => {
         </Typography>
 
         <div className="space-x-4">
-          <Button
+         <Button
             color="inherit"
             component={Link}
             to="/"
-            className="transition-all duration-300 rounded-full text-white border border-transparent hover:border-transparent hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 py-2 px-4"
+            className="transition-all duration-300 rounded-full text-white border border-blue-600 hover:border-purple-600 hover:text-white hover:bg-transparent py-2 px-6"
           >
-            Home
-          </Button>
+              Home
+        </Button>
+
 
           <Button
             color="inherit"
             component={Link}
             to="/ProfileCard"
-            className="transition-all duration-300 rounded-full text-white border border-transparent hover:border-transparent hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 py-2 px-4"
+            className="transition-all duration-300 rounded-full text-white border border-blue-600 hover:border-purple-600 hover:text-white hover:bg-transparent py-2 px-6"
           >
             Our Team
           </Button>
@@ -34,7 +35,7 @@ const NavbarComponent = () => {
             color="inherit"
             component={Link}
             to="/ContactForm"
-            className="transition-all duration-300 rounded-full text-white border border-transparent hover:border-transparent hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 py-2 px-4"
+            className="transition-all duration-300 rounded-full text-white border border-blue-600 hover:border-purple-600 hover:text-white hover:bg-transparent py-2 px-6"
           >
             Contact Us
           </Button>

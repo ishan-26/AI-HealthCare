@@ -8,7 +8,7 @@ const NavbarComponent = () => {
       <Toolbar className="flex flex-wrap justify-between items-center">
        
         <Typography variant="h6" component={Link} to="/" className="text-white font-bold no-underline">
-          Mednex
+          MedNex
         </Typography>
 
         <div className="space-x-4">

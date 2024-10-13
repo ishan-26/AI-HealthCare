@@ -17,7 +17,7 @@ const ContactForm = () => {
     };
 
     const serviceID = "service_5an8loo";
-    const templateID = "template_6h1n6co";
+    const templateID = "template_stkakf3";
 
     emailjs.send(serviceID, templateID, params)
       .then(res => {

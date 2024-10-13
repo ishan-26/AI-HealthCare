@@ -51,15 +51,14 @@ const ContactForm = () => {
             required
           />
         </div>
-        <div className="mb-4">
+         <div className="mb-4">
           <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
           <input
             type="email"
             id="email"
-            name="user_email"
             value={femail}
             onChange={(e) => setFemail(e.target.value)}
-            className="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="border-2 border-gray-300 p-2 rounded-lg w-full"
             placeholder="johndoe@example.com"
             required
           />

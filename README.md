@@ -19,6 +19,9 @@
 - **Backend**: 
   - Google's Gemini API
 
+## 🧑‍💻Link
+[MedNex](https://ai-healthcare-eight.vercel.app/)
+
 ## 📦 Installation
 
 ### Prerequisites

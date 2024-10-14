@@ -10,6 +10,7 @@ const NavbarComponent = () => {
         <Typography variant="h5" component={Link} to="/" className="text-white font-bold no-underline text-center md:text-left">
           MedNex
         </Typography>
+    </div>
 
         <div className="space-x-4">
          <Button
@@ -40,8 +41,7 @@ const NavbarComponent = () => {
             Contact Us
           </Button>
         </div>
-        </div>
-      </Toolbar>
+    </Toolbar>
     </AppBar>
   );
 };

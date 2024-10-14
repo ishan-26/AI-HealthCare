@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const [fname, setFname] = useState('');
-  const [femail, setFemail] = useState('');
+  const [user_email, setFemail] = useState('');
   const [fmessage, setFmessage] = useState('');
 
   // Function to send email
@@ -12,7 +12,7 @@ const ContactForm = () => {
 
     const params = {
       fname,
-      femail,
+      user_email,
       message: fmessage,
     };
 
@@ -56,7 +56,7 @@ const ContactForm = () => {
           <input
             type="email"
             id="email"
-            value={femail}
+            value={user_email}
             onChange={(e) => setFemail(e.target.value)}
             className="border-2 border-gray-300 p-2 rounded-lg w-full"
             placeholder="johndoe@example.com"

@@ -26,7 +26,7 @@
 ## 📦 Installation
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+Make sure you have [Node.js](https://nodejs.org/) and [Anaconda](https://docs.anaconda.com/anaconda/install/)installed on your machine.
 
 ```
 pip install google-generativeai

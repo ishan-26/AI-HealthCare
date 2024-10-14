@@ -11,7 +11,8 @@
 - **✨ Interactive UI**: Engaging user interface with animations and effects.
 
 ## ⚙️ Technologies Used
-- **Frontend**: 
+- **Frontend**:
+  - Python
   - React
   - Tailwind CSS
   - EmailJS

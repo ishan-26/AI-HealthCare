@@ -7,7 +7,7 @@ const NavbarComponent = () => {
     <AppBar position="static" className="bg-gray-900 shadow-lg">
       <Toolbar className="flex flex-wrap justify-between items-center">
        
-        <Typography variant="h5" component={Link} to="/" className="text-white font-bold no-underline">
+        <Typography variant="h5" component={Link} to="/" className="text-white font-bold no-underline text-center md:text-left">
           MedNex
         </Typography>
 

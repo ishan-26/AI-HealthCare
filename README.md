@@ -12,12 +12,12 @@
 
 ## ⚙️ Technologies Used
 - **Frontend**:
-  - Python
   - React
   - Tailwind CSS
   - EmailJS
 
-- **Backend**: 
+- **Backend**:
+  - Python
   - Google's Gemini API
 
 ## 🧑‍💻Try Now !

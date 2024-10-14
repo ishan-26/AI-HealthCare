@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NavbarComponent = () => {
   return (
-    <AppBar position="static" color="transparent"className="bg-gray-900 shadow-lg">
+    <AppBar position="static" color="black" className="bg-gray-900 shadow-lg">
       <Toolbar className="flex flex-wrap justify-between items-center">
            <div className="w-full md:w-auto flex justify-center md:justify-start">
         <Typography variant="h5" component={Link} to="/" className="text-white font-bold no-underline text-center md:text-left">

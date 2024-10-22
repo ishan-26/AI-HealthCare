@@ -4,16 +4,16 @@
   import ContactForm from './Contact';
   import { Button } from '@mui/material';
   import {TypeAnimation} from 'react-type-animation';
-  import ParticlesBackground from "./Particles";
+
 
   const Home = () => {
     return (
 
   <div className="bg-black min-h-screen text-white flex flex-col items-center justify-center relative">
-  <ParticlesBackground className="absolute top-0 left-0 w-full h-full -z-10" />
+
 
         {/* Hero Section */}
-        <div className="text-center py-40 px-4 relative z-10">
+        <div className="text-center py-40 px-4 ">
 
     <h2 className="font-bold mb-6 text-4xl md:text-5xl lg:text-6xl text-white">
         AI Healthcare Solutions

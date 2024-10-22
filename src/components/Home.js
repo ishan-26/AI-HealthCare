@@ -52,5 +52,26 @@ const Home = () => {
               <p className="text-gray-100 text-xl font-semibold">
                 AI Calorie Count
               </p>
-
             </div>
+<p className="text-gray-300 leading-normal font-light mb-4">
+                Track your calories easily with our AI tool.
+              </p>
+              <a
+    className="rounded-md w-full bg-red-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:text-white shadow-lg focus:bg-red-700 focus:shadow-none active:bg-red-700 hover:bg-red-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+    href="https://calories-count-ai.streamlit.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+                COUNT NOW
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    );
+  };
+
+  export default Home;
+

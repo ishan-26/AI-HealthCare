@@ -7,7 +7,7 @@ import ContactForm from './components/Contact';
 import { init } from '@emailjs/browser';
 
 
-const USER_ID = process.env.USER_ID;
+const USER_ID = process.env.NEXT_PUBLIC_USER_ID;
 init(USER_ID);
 
 function App() {

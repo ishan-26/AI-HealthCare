@@ -6,8 +6,8 @@ import ProfileCard from './components/ProfileCard';
 import ContactForm from './components/Contact';
 import { init } from '@emailjs/browser';
 
-// Replace with your actual User ID
-const USER_ID = '3P_DaaCqbzQsiKaCW';
+
+const USER_ID = process.env.USER_ID;
 init(USER_ID);
 
 function App() {
